@@ -1,0 +1,53 @@
+*::before ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'poppins';
+
+}
+
+.container {
+  align-items: center;
+  width: 250px;
+  padding: 60px 100px;
+  background-color:rgba(50, 104, 204, 1);
+  margin: 50px auto;
+  border-radius: 5px;
+  transition: background 0.5s transform(0.5s);
+  cursor: pointer;
+}
+
+.container:hover {
+  background: #f89;
+  transform: translateY(-10px);
+}
+
+.container input {
+  padding: 10px 16px;
+  margin-right: 16px;
+  border-style: none;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.container button {
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-style: none;
+  outline: none;
+  border-radius: 4px;
+
+}
+
+#result {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 20px;
+  color: white;
+}
